@@ -292,7 +292,7 @@ public class SimpleCloudHandler : MonoBehaviour, ICloudRecoEventHandler
                 /*Important to transform localscale before transform.parent */
                 //clone[i].transform.parent = newImageTarget.transform;
                 //Instantiate(asseBundle.LoadAsset(assetNames[i]));
-                i += 2;
+                i += 1  ;
             }   
         }
 
